@@ -1,0 +1,53 @@
+  .install-button-wrapper {
+    text-align: center;
+  }
+  
+  .progress-wrapper {
+    position: relative;
+    margin-top: 20px;
+    width: 240px;
+    height: 3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #03b68051;
+  }
+  
+  .progress-bar {
+    position: relative;
+    width: 0;
+    height: 100%;
+    background-color: #00875f;
+    transition: width 0.5s ease;
+  }
+
+  
+  .progress-label {
+    position: relative;
+    left: 40px;
+    bottom: 45px;
+    font-family: sans-serif;
+    color: #a4a2a2;
+  }
+  
+  
+  
+  button {
+    width: 240px;
+    height: 35px;
+    background-color: #00875f;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 0 rgb(0, 94, 0);
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  

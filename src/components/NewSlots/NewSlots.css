@@ -1,0 +1,43 @@
+.list-container {
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  .list-container h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .list-container p {
+    margin: 5px 0;
+    font-weight: 300;
+  }
+
+  p.gradient-p {
+    padding: 10px 0;
+    line-height: 25px;
+  }
+  
+  .list-gradient-overlay {
+    position: absolute;
+    bottom: 52px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 80%);
+    z-index: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  p.list-expand {
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    color: #008000;
+    padding-top: 20px;
+  }
+  
